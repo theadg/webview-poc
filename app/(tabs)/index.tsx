@@ -8,7 +8,6 @@ import WebView from 'react-native-webview'
 
 export default function HomeScreen() {
     return (
-        // TODO: use own next js link
         <WebView
             source={{ uri: 'http://10.0.2.2:3000' }}
             style={{ flex: 1 }}
